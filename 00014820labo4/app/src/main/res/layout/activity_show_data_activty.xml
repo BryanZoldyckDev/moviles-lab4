@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowDataActivty">
+
+    <TextView
+        android:id="@+id/titletextview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/valor1"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="@dimen/valor1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/titulo2"
+        android:textSize="@dimen/valor3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nametextview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/valor1"
+        android:layout_marginTop="@dimen/valor1"
+        android:layout_marginEnd="@dimen/valor1"
+        android:text="@string/nombre"
+        android:textSize="@dimen/valor4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titletextview" />
+
+    <TextView
+        android:id="@+id/emailtextview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/valor1"
+        android:layout_marginTop="@dimen/valor1"
+        android:layout_marginEnd="@dimen/valor1"
+        android:text="@string/correo"
+        android:textSize="@dimen/valor4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nametextview" />
+
+    <TextView
+        android:id="@+id/phonetextview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/valor1"
+        android:layout_marginTop="@dimen/valor1"
+        android:layout_marginEnd="@dimen/valor1"
+
+        android:text="@string/telefono"
+        android:textSize="@dimen/valor4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailtextview" />
+
+    <Button
+        android:id="@+id/sharebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_color"
+        android:text="@string/compartir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phonetextview"
+        app:layout_constraintVertical_bias="0.164" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

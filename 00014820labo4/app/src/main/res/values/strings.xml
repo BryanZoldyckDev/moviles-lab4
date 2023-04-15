@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">00014820-labo4</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo electronico</string>
+    <string name="telefono">Número de télefono</string>
+    <string name="titulo1">Rellene la siguiente información</string>
+    <string name="titulo2">Confirme su información</string>
+    <string name="guardar">Guardar</string>
+    <string name="compartir">Compartir</string>
+</resources>
